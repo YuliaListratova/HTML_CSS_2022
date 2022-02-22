@@ -1,0 +1,71 @@
+body {
+    color: rgba(96, 42, 183, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    border: 1px solid royalblue;
+}
+/* p {
+    background-color: royalblue;
+    color: beige;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+} */
+/* .blue {
+    background-color: rgb(65, 225, 65);
+    color: rgb(61, 61, 18);
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 20px;
+} */
+
+img {
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 35px rgba(101, 196, 140, 0.6);
+    transition: 0.7s;
+}
+img:hover {
+    transform: scale(1.05, 1.05);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    background: salmon;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+a:hover {
+    background-color: chartreuse;
+    color: black;
+}
+.rounded {
+    border-radius: 15px;
+    padding: 10px;
+}
+.blue {
+    background-color: blue;
+}
+.pink {
+    background-color: pink;
+}
+
+.block {
+    width: 30%;
+    border-radius: 35px;
+    padding: 20px;
+}
+.green {
+    background-color: green;
+}
+.orange {
+    background-color: orange;
+}
+.violet {
+    background-color: violet;
+}
