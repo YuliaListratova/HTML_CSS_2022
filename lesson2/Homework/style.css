@@ -9,10 +9,15 @@ body {
 /* } */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 80px;
     box-shadow: 0px 15px 35px 0px #0000001A;
+}
+.headerContent {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
 }
 .content {
     display: flex;
