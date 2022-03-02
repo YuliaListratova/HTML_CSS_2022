@@ -1,12 +1,6 @@
 body {
     margin: 0 auto;
 }
-/* .container { */
-    /* display: flex; */
-    /* width: 1140px; */
-    /* margin: 0 auto; */
-    /* flex-direction: column; */
-/* } */
 header {
     display: flex;
     justify-content: center;
@@ -29,7 +23,7 @@ header {
     /* font-family: Montserrat; */
     /* font-size: 18px; */
     /* font-weight: 600; */
-    font: 600 18px Montserrat;
+    font: 600 18px "Montserrat", "Arial", sans-serif;
     color: #212121;
 }
 h1 {
@@ -38,7 +32,7 @@ h1 {
     margin: 0;
     padding: 63px 0px 63px 0px;
     font-size: 40px;
-    font: 600 40px Montserrat;
+    font: 600 40px "Montserrat", "Arial", sans-serif;
     color: #424242;
 }
 .section {
@@ -56,14 +50,14 @@ h1 {
 .section-item-title {
     margin: 0;
     padding-top: 23px;
-    font: 600 18px Montserrat;
+    font: 600 18px "Montserrat", "Arial", sans-serif;
     color: #212121;
 }
 .section-item-text {
     margin: 0;
     padding-top: 10px;
     text-align: center;
-    font: normal 16px Montserrat;
+    font: normal 16px "Montserrat", "Arial", sans-serif;
     color: #424242;
 }
 hr {
@@ -83,11 +77,11 @@ hr {
 }
 .section-quote {
     margin: 0;
-    font: lighter italic 32px/48px Montserrat;
+    font: lighter italic 32px/48px "Montserrat", "Arial", sans-serif;
 }
 .section-quote-author {
     margin: 0;
-    font: lighter italic 24px/36px Montserrat;
+    font: lighter italic 24px/36px "Montserrat", "Arial", sans-serif;
 }
 .blok3 {
     display: flex;
@@ -98,7 +92,7 @@ hr {
     display: flex;
     flex-direction: column;
     color: #424242;
-    font: normal 18px/27px Montserrat;
+    font: normal 18px/27px "Montserrat", "Arial", sans-serif;
     padding: 88px 0px 88px 0px;   
 }
 .flowers {
@@ -111,5 +105,5 @@ footer {
     height: 80px;
     background-color: #FFB5B5;
     color: #fff;
-    font: normal 18px/27px Montserrat;
+    font: normal 18px/27px "Montserrat", "Arial", sans-serif;
 }
